@@ -2,4 +2,3 @@ Flask
 scikit-learn
 nltk
 numpy
-chart.js
