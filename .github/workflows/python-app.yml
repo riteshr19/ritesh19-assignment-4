@@ -19,7 +19,7 @@ jobs:
     - name: Run application
       run: |
         make run &
-        sleep 10
+        sleep 30  # Increase sleep duration to 30 seconds
     - name: Check server
       run: |
         curl --fail http://localhost:3000 || exit 1
